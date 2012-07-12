@@ -51,7 +51,7 @@ static char * strlwc(const char * s)
         l[i] = (char)tolower((int)s[i]);
         i++ ;
     }
-    l[ASCIILINESZ]=(char)0;
+    l[i]=(char)0;
     return l ;
 }
 
